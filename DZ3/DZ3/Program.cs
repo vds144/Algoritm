@@ -45,7 +45,7 @@ namespace DZ3
 
         [Benchmark]
             
-            public void TestSum()
+            public void CalculationOfDistanceReferenceFloat()
             {
                 PointStruct startPoint = new PointStruct { X = 10, Y = 20 };
                 PointStruct endPoint = new PointStruct { X = 120, Y = 220 };
@@ -54,7 +54,7 @@ namespace DZ3
 
               [Benchmark]
 
-             public void TestSum2()
+             public void CalculatingDistanceSignificantFloat()
             {
             PointStruct pointOne = new PointStruct { X = 10, Y = 20 };
             var array = new PointStruct[1];
@@ -68,7 +68,7 @@ namespace DZ3
 
         [Benchmark]
 
-        public void TestSum3()
+        public void CalculationOfDistanceReferenceDouble()
         {
             PointStruct startPoint = new PointStruct { X = 10, Y = 20 };
             PointStruct endPoint = new PointStruct { X = 120, Y = 220 };
@@ -77,7 +77,7 @@ namespace DZ3
 
         [Benchmark]
 
-        public void TestSum4()
+        public void CalculatingDistanceSignificantDouble()
         {
             PointStruct pointOne = new PointStruct { X = 10, Y = 20 };
             var array = new PointStruct[1];
